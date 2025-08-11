@@ -21,7 +21,7 @@ a {
 
 .header, 
 .hero {
-    background-color: #1F2937;
+    background-color: #033172;
     padding: 0 240px;
 }
 
@@ -38,6 +38,7 @@ a {
     color: #F9FAF8;
 }
 
+
 li, p {
     font-size: 18px;
     color: #E5E7EB
@@ -47,23 +48,25 @@ li, p {
     flex: 1 400px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .left {
     width: 50%;
-    height: 200px;
+}
+
+.hero-heading,
+.hero-image {
+    margin: 75px 0 0 0;
 }
 
 .hero-heading {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 0;
 }
 
 .hero-text {
-    margin: .5em 0;
+    margin: 0 0 .5em 0;
 }
 
 .hero-button {
@@ -90,6 +93,7 @@ li, p {
     display: flex;
     justify-content: center;
     gap: 64px;
+    margin-bottom: 80px;
 }
 
 .info-text {
@@ -98,5 +102,29 @@ li, p {
 
 .caption {
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 355px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+    color: #1F2937;
+    margin-top: 0;
+
 }
 
