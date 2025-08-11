@@ -1,5 +1,5 @@
 html {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -19,9 +19,14 @@ a {
     color: #E5E7EB;
 }
 
-.header {
+.header, 
+.hero {
     background-color: #1F2937;
-    padding: 0 120px;
+    padding: 0 320px;
+}
+
+.header {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +38,41 @@ a {
     color: #F9FAF8;
 }
 
-li {
+li, p {
     font-size: 18px;
     color: #E5E7EB
 }
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-text {
+    margin: 0;
+}
+
+.hero-button {
+    width: 20%;
+    height: 32px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    /* margin-bottom: 120px; */
+}
+
