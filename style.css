@@ -20,8 +20,9 @@ a {
 }
 
 .header, 
-.hero {
-    background-color: #033172;
+.hero,
+.footer {
+    background-color: #1F2937;
     padding: 0 240px;
 }
 
@@ -69,13 +70,17 @@ li, p {
     margin: 0 0 .5em 0;
 }
 
-.hero-button {
-    width: 15%;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-weight: 600;
-    border: none;
+.hero-button,
+.call-button {
+    width: 95px;
+    height: 28px;
     border-radius: 6px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.hero-button, .call {
+    background-color: #3882F6;
 }
 
 .info {
@@ -106,8 +111,10 @@ li, p {
 
 .quote {
     background-color: #E5E7EB;
+    flex: 1 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0 355px;
 }
@@ -125,6 +132,32 @@ li, p {
     font-weight: 600;
     color: #1F2937;
     margin-top: 0;
-
 }
 
+.call {
+    padding: 32px 115px;
+    margin: 80px 240px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.call-text {
+    margin-top: 0;
+}
+
+.call-button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8
+}
+
+.footer {
+    text-align: center;
+}
