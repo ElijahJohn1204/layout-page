@@ -22,7 +22,7 @@ a {
 .header, 
 .hero {
     background-color: #1F2937;
-    padding: 0 320px;
+    padding: 0 240px;
 }
 
 .header {
@@ -44,7 +44,7 @@ li, p {
 }
 
 .hero {
-    flex: 1;
+    flex: 1 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +52,7 @@ li, p {
 
 .left {
     width: 50%;
+    height: 200px;
 }
 
 .hero-heading {
@@ -62,17 +63,40 @@ li, p {
 }
 
 .hero-text {
-    margin: 0;
+    margin: .5em 0;
 }
 
 .hero-button {
-    width: 20%;
-    height: 32px;
+    width: 15%;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 600;
     border: none;
     border-radius: 6px;
-    /* margin-bottom: 120px; */
+}
+
+.info {
+    padding: 0 160px;
+    text-align: center;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-text {
+    max-width: 175px;
+}
+
+.caption {
+    color: #1F2937;
 }
 
